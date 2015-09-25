@@ -20,5 +20,5 @@ apt-get -y install \
 	cuda-cublas-dev-$VERSION \
 	cuda-curand-dev-$VERSION
 # apt-get install -y cuda
-ln -s /usr/local/cuda-$VERSION_DOT /usr/local/cuda
+ln -s cuda-$VERSION_DOT /usr/local/cuda
 ldconfig
